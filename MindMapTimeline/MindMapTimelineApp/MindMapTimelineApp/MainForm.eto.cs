@@ -12,7 +12,7 @@ namespace MindMapTimelineApp
 			ClientSize = new Size(400, 350);
 			Padding = 10;
 
-			Content = new StackLayout
+            Content = new StackLayout
 			{
 				Items =
 				{
@@ -23,7 +23,12 @@ namespace MindMapTimelineApp
 
 			// create a few commands that can be used for the menu and toolbar
 			var clickMe = new Command { MenuText = "Click Me!", ToolBarText = "Click Me!" };
-			clickMe.Executed += (sender, e) => MessageBox.Show(this, "I was clicked!");
+
+            // Create the brain
+            BrainClass brain = new BrainClass();
+            string brainWord = brain.EatShitAndDie();
+
+            clickMe.Executed += (sender, e) => MessageBox.Show(this, brainWord);
 
 			var quitCommand = new Command { MenuText = "Quit", Shortcut = Application.Instance.CommonModifier | Keys.Q };
 			quitCommand.Executed += (sender, e) => Application.Instance.Quit();
