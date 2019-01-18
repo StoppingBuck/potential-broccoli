@@ -8,10 +8,24 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		GoatFuckers.cs = GoatFuckers.cs
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MindMapTimelineApp", "MindMapTimelineApp\MindMapTimelineApp\MindMapTimelineApp.csproj", "{1F4C4EE3-2B16-4AA7-BC19-AB120EE1FD9B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MindMapTimelineApp.Desktop", "MindMapTimelineApp\MindMapTimelineApp.Desktop\MindMapTimelineApp.Desktop.csproj", "{1FC41946-F5E0-49D0-9286-E1ED25D832EA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1F4C4EE3-2B16-4AA7-BC19-AB120EE1FD9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F4C4EE3-2B16-4AA7-BC19-AB120EE1FD9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F4C4EE3-2B16-4AA7-BC19-AB120EE1FD9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F4C4EE3-2B16-4AA7-BC19-AB120EE1FD9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FC41946-F5E0-49D0-9286-E1ED25D832EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FC41946-F5E0-49D0-9286-E1ED25D832EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FC41946-F5E0-49D0-9286-E1ED25D832EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FC41946-F5E0-49D0-9286-E1ED25D832EA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
