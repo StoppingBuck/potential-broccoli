@@ -16,7 +16,7 @@ namespace MindMapTimelineApp
 			{
 				Items =
 				{
-					"Hello World!",
+                    "Take a look at my girlfriend\nShe's the only one I've got\nNot much of a girlfriend\nNever seem to get a lot\n\nTake a jumbo across the water\nLike to see America\nSee the girls in California\nI'm hoping it's going to come true\nBut there's not a lot I can do\n\nCould we have kippers for breakfast\nMummy dear, mummy dear\nThey got to have 'em in Texas\n'Cos everyone's a millionaire\n\nI'm a winner, I'm a sinner\nDo you want my autograph\nI'm a loser, what a joker\nI'm playing my jokes upon you\nWhile there's nothing better to do\n\nDon't you look at my girlfriend\nShe's the only one I've got\nNot much of a girlfriend\nNever seem to get a lot\n\nTake a jumbo cross the water\nLike to see America\nSee the girls in California\nI'm hoping it's going to come true\nBut there's not a lot I can do",
 					// add more controls here
 				}
 			};
